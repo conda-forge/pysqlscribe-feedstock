@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pysqlscribe
-  version: "0.9.1"
+  version: "0.10.0"
   python_min: 3.11
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pysqlscribe-${{ version }}.tar.gz
-  sha256: cc26b0cabb7d5f5e52de17e56bbf728fff0ca757afa7aeb9a584831fc9b0bcb3
+  sha256: 65b2f75369a108541105dbc63bc24a1897ef049b7e244063360029eb992c803e
 
 build:
   number: 0
